@@ -1,0 +1,50 @@
+.navbar{
+    background: #B03052;
+    color: #EBE8DB;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* justify-content: flex-end; */
+    z-index: 10;
+}
+
+.navbar ul{ 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: auto;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    color: navy;
+}
+
+.logo{
+    /* margin: -40px 0px 0px -120px; */
+
+    width: auto;
+    height: 70px;
+    object-fit: cover;
+    object-position: 25% 25%;
+    justify-content: flex-start;
+    overflow: hidden;
+
+    /* height: 50px; Adjust height as needed */
+    /* width: auto; Maintain aspect ratio */
+    /* object-fit: cover; Ensures the entire image fits */
+    /* overflow: hidden; Hide excess parts */ 
+}
