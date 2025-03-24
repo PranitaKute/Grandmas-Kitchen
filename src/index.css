@@ -4,3 +4,25 @@
     background: #EBE8DB;
     font-family: sans-serif;
 } */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.btn{
+    background: #EBE8DB;
+    border-radius: 30px;
+    padding: 14px 25px;
+    color: #B03052;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
